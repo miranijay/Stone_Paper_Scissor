@@ -18,7 +18,6 @@ const  drawgame = () => {
     msg.style.backgroundColor = "Black"
 }
 
-
 const showwinner = (userwin, userchoice, compchoice) => {
     if(userwin) {
         userscore++
@@ -55,7 +54,6 @@ const playgame = (userchoice) => {
           }
         showwinner(userwin, userchoice, compchoice)
     }
-
 }
 
 choices.forEach((choice) => {
